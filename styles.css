@@ -43,11 +43,16 @@ a:hover {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
-  
+  opacity: 0.55;
 }
 
-#portrait {
+#nav img:hover {
+  opacity: 0.9; 
+}
+
+#nav #portrait {
  border-radius: 100%;
+ opacity: 0.9;
 }
 
 #share {
